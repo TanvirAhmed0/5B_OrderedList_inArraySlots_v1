@@ -1,4 +1,4 @@
-/** 
+/**
   OrderedList_inArraySlots
   
   A list with the invariant the elements are in order by
@@ -6,7 +6,7 @@
   List_inArraySlots
  */
 
-public class OrderedList_inArraySlots {
+public class OrderedList_inArraySlots implements OrderedList {
 
     private List_inArraySlots list_iAS;
 
@@ -14,7 +14,7 @@ public class OrderedList_inArraySlots {
         list_iAS = new List_inArraySlots();
     }
 
-    /** 
+    /**
       @return a string representation of this Orderedlist_iAS
      */
     public String toString() {
@@ -22,7 +22,7 @@ public class OrderedList_inArraySlots {
     }
 
     
-    /** 
+    /**
       Put @value where it belongs in the list.
       @pre: the list is in increasing order
      */
